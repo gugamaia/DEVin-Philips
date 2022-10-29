@@ -1,10 +1,17 @@
 * {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-  }
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-gray);
+}
   
+:root {
+  --dark-gray: #3c4048;
+  --gray: #b2b2b2;
+  --blue: #00abb3;
+  --light-gray: #eaeaea;
+}
