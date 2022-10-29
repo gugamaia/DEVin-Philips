@@ -216,7 +216,7 @@ function obterTotal(id) {
 }
 
 function obterImagemCurtido(curtido) {
-  return curtido ? './assets/liked.png' : './assets/like.png';
+  return curtido ? './images/liked.png' : './images/like.png';
 }
 // Fim funções de apoio
 
