@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevInBank</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/devinbank.png" alt="Logo Bank" height="50px"/>
+      <h1>DevInBank</h1>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <h2>Formulário de Cadastro</h2>
+
+        <form id="form" class="form">
+          <div>
+            <label for="nome">Nome:</label>
+            <input required id="nome" value="teste" />
+          </div>
+
+          <div>
+            <label for="cpf">CPF:</label>
+            <input required id="cpf" value="teste" />
+          </div>
+
+          <div>
+            <label for="celular">Celular:</label>
+            <input required type="number" id="celular" value="1234" />
+          </div>
+
+          <div>
+            <label for="senha">Senha:</label>
+            <input required id="senha" value="teste" />
+          </div>
+
+          <div>
+            <label for="confirmacao">Confirmação senha:</label>
+            <input required id="confirmacao" value="teste" />
+          </div>
+
+          <div>
+            <button type="reset" class="button">Limpar</button>
+            <button type="submit" class="button">Cadastrar</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="section">
+        <h2>Ações</h2>
+
+        <form id="form-acoes" class="form">
+          <div>
+            <label for="operacao">Operacão:</label>
+            <select id="operacao" required>
+              <option value="SAQUE">Saque</option>
+              <option value="DEPOSITO">Depósito</option>
+              <option value="SALDO">Consulta Saldo</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="valor">Valor:</label>
+            <input id="valor" type="number" required />
+          </div>
+
+          <div>
+            <label for="conta">Conta:</label>
+            <input id="conta" type="number" required />
+          </div>
+
+          <div>
+            <label for="senha">Senha:</label>
+            <input id="senha" required />
+          </div>
+
+          <div>
+            <button type="reset" class="button">Limpar</button>
+            <button type="submit" class="button">Confirmar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <p>DevInBank</p>
+      <p>R. Dois de Setembro, 1944 - Itoupava Norte,<br/> Blumenau - SC, 89052-004</p>
+      <p class="como-chegar"><a href="https://www.google.com.br/maps/place/Philips+Clinical+Informatics+-+Sistemas+de+Informação+Ltda/@-26.8933474,-49.0789284,17z/data=!3m1!4b1!4m5!3m4!1s0x94df19496c9216df:0xa2ccb6aee6a66ec7!8m2!3d-26.8933474!4d-49.0767397" target="_blank">Como chegar</a></p>
+    </footer>
+  </body>
 </html>
