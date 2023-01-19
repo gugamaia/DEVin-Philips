@@ -1,7 +1,20 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+    color: var(--dark-gray);
+}
+
+body {
+    background-color: lightgray;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cabecalho {
@@ -9,4 +22,28 @@
     align-items: center;
     gap: 10px;
     padding: 5px;
+    background-color: navy;
+    color: grey;
 }
+
+.conteudo-principal {
+    display: flex;
+    flex: 1;
+}
+
+.rodape {
+    background-color: blueviolet;
+    text-align: justify;
+    gap: 10px;
+    padding: 8px;
+}
+
+.rodape .como-chegar {
+    color: darkred;
+    text-decoration: underline;
+}
+
+
+/* https://drive.google.com/drive/folders/1ELgNsgyAmtB7ByjC_CRWR3a_DePWtNHX
+
+Parei em 34:06 */
